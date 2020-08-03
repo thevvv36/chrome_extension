@@ -1,0 +1,6 @@
+{
+	"name": "Replacer",
+	"version":"0.1",
+	"description":"An extension to replace text in medium article",
+	"manifest_version": 2
+}
