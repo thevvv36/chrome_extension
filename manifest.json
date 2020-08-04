@@ -6,17 +6,15 @@
 	"page_action":{
 		"default_icon":{
 			
-			"16":"images/repalcely16.png",
+			"16":"images/replacely16.png",
 			"32": "images/replacely32.png",
-            		"48": "images/replacely48.png",
-            		"128": "images/replacely128.png"
+            		"48": "images/replacely48.png"
 		}
 	},
 
 	"icons": {
         	"16": "images/replacely16.png",
         	"32": "images/replacely32.png",
-        	"48": "images/replacely48.png",
-        	"128": "images/replacely128.png"
+        	"48": "images/replacely48.png"
     }
 }
