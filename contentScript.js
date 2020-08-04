@@ -2,7 +2,7 @@ console.log("content script running ...");
 const FIND = "the";
 const REPLACE_WITH = "aghiles";
 
-cont regex = new RegExpt(FIND, "gi");
+const regex = new RegExpt(FIND, "gi");
 const content = document.querySelectorAll("p,li,span,h1,h2,h3");
 
 
