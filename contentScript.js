@@ -3,7 +3,7 @@ const FIND = "the";
 const REPLACE_WITH = "aghiles";
 
 const regex = new RegExp(FIND, "gi");
-const content = document.querySelectorAll("p,li,span,h1,h2,h3");
+const contents= document.querySelectorAll("p,li,span,h1,h2,h3");
 
 
 for(const snippet of contents){

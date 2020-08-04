@@ -5,3 +5,10 @@ working in isolation from the original webpage javascript
 
 we can inject the script programmtically (from a background or popup file) or declaratively(execute the script automatically or particular page)
 
+
+** Background Script
+
+unlike content script , it works as a whole for the browser instrad of separate instances we can have multiple background script for an extension
+
+background script get executed as soon as the browser launch, whereas
+content scripts get executed when the webpage on wich the script is to be executed loads
