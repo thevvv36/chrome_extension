@@ -6,7 +6,7 @@ const regex = new RegExp(FIND, "gi");
 const content = document.querySelectorAll("p,li,span,h1,h2,h3");
 
 
-for(const snippet in contents){
+for(const snippet of contents){
 	snippet.textContent = snippet.textContent.replace(regex, REPLACE_WITH);
 }
 
