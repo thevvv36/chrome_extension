@@ -14,3 +14,5 @@ unlike content script , it works as a whole for the browser instrad of separate 
 
 background script get executed as soon as the browser launch, whereas
 content scripts get executed when the webpage on wich the script is to be executed loads
+
+the persistent key nedd to be set to true when we use the chrome.webRequest api to block or modify network requests
