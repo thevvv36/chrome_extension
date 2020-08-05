@@ -1,4 +1,5 @@
-**Content Scripts
+Content Scripts
+================
 
 the content scripts let you modify the webpage DOM,
 working in isolation from the original webpage javascript
@@ -6,7 +7,8 @@ working in isolation from the original webpage javascript
 we can inject the script programmtically (from a background or popup file) or declaratively(execute the script automatically or particular page)
 
 
-** Background Script
+Background Script
+=================
 
 this script listen to specific events in the background
 
@@ -18,6 +20,7 @@ content scripts get executed when the webpage on wich the script is to be execut
 the persistent key nedd to be set to true when we use the chrome.webRequest api to block or modify network requests
 
 Message Passing
+===============
 
 with message passing you can communicate between the content script and the extension
 
