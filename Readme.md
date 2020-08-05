@@ -8,6 +8,8 @@ we can inject the script programmtically (from a background or popup file) or de
 
 ** Background Script
 
+this script listen to specific events in the background
+
 unlike content script , it works as a whole for the browser instrad of separate instances we can have multiple background script for an extension
 
 background script get executed as soon as the browser launch, whereas
