@@ -10,4 +10,6 @@ for(const snippet of contents){
 	snippet.textContent = snippet.textContent.replace(regex, REPLACE_WITH);
 }
 
-
+chrome.runtime.onMessage.addListener(function(message){
+	console.log(message)
+});
