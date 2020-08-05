@@ -5,7 +5,7 @@
 const iconRules = [{
 	conditions:[
 		new chrome.declarativeContent.PageStateMatcher({
-			pargeUrl:{hostEquals:'medium'};
+			pageUrl:{hostEquals:'medium'};
 		})
 	],
 	actions:[new chrome.declarativeContent.ShowPageAction()]
